@@ -23,4 +23,23 @@ Accurate and well-documented requirements help in estimating the time, cost, and
 ### 3. Reduces Scope Creep
 Requirement Analysis sets clear boundaries for the project. It helps manage expectations and avoids the risk of unplanned changes or additional features being introduced without proper review, which can derail timelines and increase costs.
 
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities to ensure that software requirements are accurate, complete, and clearly understood. Below are the five key activities involved:
+
+- **Requirement Gathering**  
+  Collect high-level needs and expectations from stakeholders through interviews, surveys, questionnaires, or brainstorming sessions. This step focuses on understanding what the users and business want from the system.
+
+- **Requirement Elicitation**  
+  Go deeper into the gathered information to clarify and refine requirements. Techniques such as use cases, user stories, prototyping, and observation are often used to uncover detailed and sometimes hidden needs.
+
+- **Requirement Documentation**  
+  Organize and record the requirements in a clear and structured format such as Software Requirements Specifications (SRS), user stories, or requirement lists. This documentation serves as a reference for developers, testers, and stakeholders.
+
+- **Requirement Analysis and Modeling**  
+  Analyze the collected requirements to identify conflicts, overlaps, priorities, and dependencies. Visual models like data flow diagrams (DFDs), UML diagrams, or process flows may be created to better understand and communicate the system.
+
+- **Requirement Validation**  
+  Ensure the documented requirements accurately represent stakeholder needs and are feasible within project constraints such as budget, timeline, and technology. This step often involves stakeholder reviews, walk-throughs, and sign-offs.
+
 
