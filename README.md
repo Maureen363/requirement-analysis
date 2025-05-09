@@ -85,4 +85,42 @@ Below is a Use Case Diagram that represents the actors and use cases of a typica
 
 Link : https://github.com/Maureen363/requirement-analysis/blob/main/alx-booking-uc.png
 
+## Acceptance Criteria
+
+Acceptance Criteria are specific conditions that a system or feature must meet to be considered complete and functioning as expected. They define the boundaries of a user story or feature and help ensure that the system meets both the functional and non-functional requirements set by stakeholders.
+
+In the context of Requirement Analysis, Acceptance Criteria are essential because they provide a clear and agreed-upon definition of "done." They guide the development process, ensuring that the product meets user needs and quality standards. These criteria help in validating the system’s functionality and serve as the foundation for testing.
+
+### Importance of Acceptance Criteria
+
+1. **Clear Expectations**: Acceptance criteria provide a clear, shared understanding of what is expected from a feature or system. They define what is considered a successful implementation, reducing ambiguity.
+2. **Scope Definition**: By setting the conditions that must be met, acceptance criteria help define the scope of a feature, making it easier to manage scope creep during the development process.
+3. **Facilitating Testing**: Acceptance criteria act as the basis for creating test cases and for validating whether a feature meets its requirements. Without them, testing would be unfocused and inconsistent.
+4. **Effective Communication**: They ensure that all stakeholders (including developers, testers, and product owners) are aligned on what needs to be delivered.
+5. **Reduced Risk of Rework**: With clearly defined acceptance criteria, there is a reduced chance of misunderstandings and the need for rework once development is completed.
+
+### Example of Acceptance Criteria for the Checkout Feature
+
+1. **Successful Booking Confirmation**
+   - Given that the user has selected a booking, when they proceed to checkout, then they should see a confirmation screen with their booking details (date, time, service, price).
+   
+2. **Payment Process**
+   - Given that the user is on the checkout page, when they input valid payment details, then the payment should be processed successfully.
+   - If the payment is successful, the user should receive an on-screen confirmation and an email with the booking details and payment receipt.
+
+3. **Payment Failure Handling**
+   - Given that the user is on the checkout page, when they input invalid payment details, then the system should display an error message explaining the failure (e.g., "Invalid credit card number").
+   - The user should be given the option to re-enter payment details.
+
+4. **Total Price Calculation**
+   - Given that the user is proceeding to checkout, when they review their booking summary, then the total price should be correctly calculated, including taxes and any applicable discounts or fees.
+
+5. **Booking Cancellation Option**
+   - Given that the user has completed the payment, when they view their booking confirmation, then they should have the option to cancel the booking within a specified time window (e.g., within 24 hours).
+
+6. **Security and Data Protection**
+   - Given that the user inputs their payment details, when they submit the form, then the payment information should be securely processed using HTTPS and PCI DSS-compliant encryption standards.
+
+These criteria help guide development and testing, ensuring that the feature is complete and meets user expectations.
+
 
